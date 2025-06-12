@@ -161,7 +161,7 @@ func main() {
 			fmt.Printf("Result: %d smallest element is %d\n", tc.k, result)
 		}
 		
-		fmt.Println(strings.Repeat("-", 50))
+		fmt.Println(stringss.Repeat("-", 50))
 	}
 	
 	// Test error cases
