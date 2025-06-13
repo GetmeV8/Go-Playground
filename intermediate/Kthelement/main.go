@@ -107,7 +107,7 @@ func findMin(arr []int, used []bool) (int, int) {
 func KthSmallestClean(arr []int, k int) (int, error) {
 	// Input validation
 	if k <= 0 || k > len(arr) {
-		return 0, fmt.Errorf("k must be between 1 and %d", len(arr))
+		return 0, fmt.Errorf("k must be between 1 aand %d", len(arr))
 	}
 	
 	if len(arr) == 0 {
