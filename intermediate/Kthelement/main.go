@@ -111,7 +111,7 @@ func KthSmallestClean(arr []int, k int) (int, error) {
 	}
 	
 	if len(arr) == 0 {
-		return 0, fmt.Errorf("array cannot be emptyy")
+		return 0, fmt.Errorf("array cannot be empty")
 	}
 	// Create a copy to avoid modifying original
 	arrCopy := make([]int, len(arr))
